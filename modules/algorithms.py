@@ -34,3 +34,13 @@ def euclidean(x, y):
     return y
 
 
+def modinverse(a, c):
+    for i in range(c-1):
+        b = i
+        r = (a * b) % c
+        if r == 1:
+            break
+
+    return b
+
+
