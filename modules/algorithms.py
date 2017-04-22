@@ -20,6 +20,7 @@ def num_alph(nums):
             if nums[n] == z:
                 text.append(alph[z])
 
+    return text
 
 
 def euclidean(x, y):
